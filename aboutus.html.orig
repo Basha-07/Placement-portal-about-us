@@ -52,6 +52,25 @@
             </div>
         </div>
     </section>
+<<<<<<< HEAD
+    <div class="team-member">
+                <div class="member-photo">ğŸ‘©â€ğŸ«</div>
+                <h3>Ms. Emily Rodriguez</h3>
+                <p>Career Counselor</p>
+                <div class="member-bio">
+                    Specializes in career guidance, resume building, and interview preparation.
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-photo">ğŸ‘¨â€ğŸ’»</div>
+                <h3>Mr. David Kim</h3>
+                <p>Technical Coordinator</p>
+                <div class="member-bio">
+                    Manages technical skill assessment and training programs.
+                </div>
+            </div>
+
+=======
     <section class="team-section">
         <div class="section-title">
             <h2>Our Placement Team</h2>
@@ -73,23 +92,8 @@
                     Expert in building strong corporate partnerships and student-industry connections.
                 </div>
             </div>
-	    <div class="team-member">
-                  <div class="member-photo">í±©<200d>í¿«</div>
-                  <h3>Ms. Emily Rodriguez</h3>
-                  <p>Career Counselor</p>
-                  <div class="member-bio">
-                      Specializes in career guidance, resume building, and interview preparation.
-                  </div>
-              </div>
-              <div class="team-member">
-                  <div class="member-photo">í±¨<200d>í²»</div>
-                  <h3>Mr. David Kim</h3>
-                  <p>Technical Coordinator</p>
-                  <div class="member-bio">
-                      Manages technical skill assessment and training programs.
-                  </div>
-              </div>
          </div>>
     </section>
+>>>>>>> a1
 </body>
 </html>

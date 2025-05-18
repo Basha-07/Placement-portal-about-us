@@ -52,25 +52,6 @@
             </div>
         </div>
     </section>
-<<<<<<< HEAD
-    <div class="team-member">
-                <div class="member-photo">üë©‚Äçüè´</div>
-                <h3>Ms. Emily Rodriguez</h3>
-                <p>Career Counselor</p>
-                <div class="member-bio">
-                    Specializes in career guidance, resume building, and interview preparation.
-                </div>
-            </div>
-            <div class="team-member">
-                <div class="member-photo">üë®‚Äçüíª</div>
-                <h3>Mr. David Kim</h3>
-                <p>Technical Coordinator</p>
-                <div class="member-bio">
-                    Manages technical skill assessment and training programs.
-                </div>
-            </div>
-
-=======
     <section class="team-section">
         <div class="section-title">
             <h2>Our Placement Team</h2>
@@ -92,8 +73,149 @@
                     Expert in building strong corporate partnerships and student-industry connections.
                 </div>
             </div>
-         </div>>
+	    <div class="team-member">
+                  <div class="member-photo">Ì±©<200d>Ìø´</div>
+                  <h3>Ms. Emily Rodriguez</h3>
+                  <p>Career Counselor</p>
+                  <div class="member-bio">
+                      Specializes in career guidance, resume building, and interview preparation.
+                  </div>
+              </div>
+              <div class="team-member">
+                  <div class="member-photo">Ì±®<200d>Ì≤ª</div>
+                  <h3>Mr. David Kim</h3>
+                  <p>Technical Coordinator</p>
+                  <div class="member-bio">
+                      Manages technical skill assessment and training programs.
+                 </div>
+              </div>
+	      <div class="timeline-item">
+                <div class="timeline-year">2017</div>
+                <div class="timeline-content">
+                    <h3>Industry Partnerships Milestone</h3>
+                    <p>Established partnerships with over 50 leading companies.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2018</div>
+                <div class="timeline-content">
+                    <h3>Corporate Partnership Expansion</h3>
+                    <p>Partnered with 100+ top-tier companies</p>
+                </div>
+            </div>
+             <div class="timeline-item">
+                <div class="timeline-year">2020</div>
+                <div class="timeline-content">
+                    <h3>Virtual Placement Success</h3>
+                    <p>Successfully transitioned to virtual placements during the pandemic.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2022</div>
+                <div class="timeline-content">
+                    <h3>Global Placement Recognition</h3>
+                    <p>Awarded for outstanding placement support and student success</p>
+                </div>
+            </div>
+         </div>
     </section>
->>>>>>> a1
+    <section class="achievement-section">
+        <div class="section-title">
+            <h2>Our Journey and Achievements</h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-year">2010</div>
+                <div class="timeline-content">
+                    <h3>Establishment of Placement Cell</h3>
+                    <p>Founded with a mission to support student career development</p>
+                </div>
+            </div>
+	    <div class="timeline-item">
+                <div class="timeline-year">2013</div>
+                <div class="timeline-content">
+                    <h3>Initiation of Training Programs</h3>
+                    <p>Launched comprehensive training programs for skill enhancement.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2015</div>
+                <div class="timeline-content">
+                    <h3>First 100% Placement Year</h3>
+                    <p>Achieved 100% placement for graduating batch</p>
+                </div>
+            </div>
+         </div>
+    </section>
+<<<<<<< HEAD
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="placements.html">Placements</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>Email: placement@university.edu</p>
+                <p>Phone: +91 1234567890</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+    <a href="https://www.facebook.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/300px-2021_Facebook_icon.svg.png" alt="Facebook" width="24" height="24"></a>
+    <a href="https://www.linkedin.com/company/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/300px-LinkedIn_logo_initials.png" alt="LinkedIn" width="24" height="24"></a>
+    <a href="https://x.com/" target="_blank"><img src="x.png" alt="X (formerly Twitter)" width="24" height="24"></a>
+    <a href="https://www.instagram.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/300px-Instagram_logo_2022.svg.png" alt="Instagram" width="24" height="24"></a>
+</div>
+            </div>
+        </div>
+	<div class="footer-bottom">
+            ¬© 2024 University Placement Portal. All Rights Reserved.
+        </div>
+   </footer>
+   <script>
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        document.addEventListener('click', (event) => {
+            if (navLinks.classList.contains('active') && !navLinks.contains(event.target) && event.target !== navToggle) {
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+
+=======
+    <section class="testimonials-section">
+        <div class="section-title">
+            <h2>What Our Alumni Say</h2>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    "The placement cell was instrumental in shaping my career. Their support was exceptional!"
+                </div>
+                <div class="testimonial-author">
+                    - Alex Thompson, Senior Software Engineer
+                </div>
+            </div>
+	    <div class="testimonial-card">
+                <div class="testimonial-content">
+                    "Comprehensive guidance and professional training helped me secure my dream job."
+                </div>
+                <div class="testimonial-author">
+                    - Rachel Green, Marketing Manager
+                </div>
+            </div>
+         </div>
+   </section>
+>>>>>>> a3
 </body>
 </html>

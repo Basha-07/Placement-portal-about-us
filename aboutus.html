@@ -172,6 +172,24 @@
 </div>
             </div>
         </div>
+	<div class="footer-bottom">
+            © 2024 University Placement Portal. All Rights Reserved.
+        </div>
    </footer>
+   <script>
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        document.addEventListener('click', (event) => {
+            if (navLinks.classList.contains('active') && !navLinks.contains(event.target) && event.target !== navToggle) {
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+
 </body>
 </html>

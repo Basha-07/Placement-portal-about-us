@@ -237,7 +237,19 @@
     el.style.transform = 'translateY(40px)';
     el.style.transition = 'all 0.6s ease-out';
   });
+</script><button onclick="scrollToTop()" id="topBtn" title="Go to top">↑</button>
+<script>
+  const topBtn = document.getElementById('topBtn');
+
+  window.onscroll = () => {
+    topBtn.style.display = (document.documentElement.scrollTop > 200) ? 'block' : 'none';
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 </script>
+
 
 
 </body>

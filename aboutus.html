@@ -216,6 +216,29 @@
             }
         });
     </script>
+<script>
+  const revealElements = document.querySelectorAll('.mission-card, .team-member, .timeline-item, .testimonial-card');
+
+  const revealOnScroll = () => {
+    revealElements.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) {
+        el.style.opacity = 1;
+        el.style.transform = 'translateY(0)';
+      }
+    });
+  };
+
+  window.addEventListener('scroll', revealOnScroll);
+
+  // Initialize styles
+  revealElements.forEach(el => {
+    el.style.opacity = 0;
+    el.style.transform = 'translateY(40px)';
+    el.style.transition = 'all 0.6s ease-out';
+  });
+</script>
+
 
 </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Placement Portal - About Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="aboutus.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
@@ -216,6 +216,41 @@
             }
         });
     </script>
+<script>
+  const revealElements = document.querySelectorAll('.mission-card, .team-member, .timeline-item, .testimonial-card');
+
+  const revealOnScroll = () => {
+    revealElements.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) {
+        el.style.opacity = 1;
+        el.style.transform = 'translateY(0)';
+      }
+    });
+  };
+
+  window.addEventListener('scroll', revealOnScroll);
+
+  // Initialize styles
+  revealElements.forEach(el => {
+    el.style.opacity = 0;
+    el.style.transform = 'translateY(40px)';
+    el.style.transition = 'all 0.6s ease-out';
+  });
+</script><button onclick="scrollToTop()" id="topBtn" title="Go to top">↑</button>
+<script>
+  const topBtn = document.getElementById('topBtn');
+
+  window.onscroll = () => {
+    topBtn.style.display = (document.documentElement.scrollTop > 200) ? 'block' : 'none';
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+
 
 </body>
 </html>
